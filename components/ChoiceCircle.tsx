@@ -1,6 +1,6 @@
 import React from 'react';
-import { Item } from '../types';
-import ChoiceButton from './ChoiceButton';
+import { Item } from '../types.ts';
+import ChoiceButton from './ChoiceButton.tsx';
 
 interface ChoiceCircleProps {
   items: Item[];

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Item } from '../types';
+import { Item } from '../types.ts';
 
 interface ChoiceButtonProps {
   item: Item;

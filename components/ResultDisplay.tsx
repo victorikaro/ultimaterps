@@ -1,5 +1,5 @@
 import React from 'react';
-import { Item, GameResult, MatchScore } from '../types';
+import { Item, GameResult, MatchScore } from '../types.ts';
 
 interface ResultDisplayProps {
   playerChoice: Item;

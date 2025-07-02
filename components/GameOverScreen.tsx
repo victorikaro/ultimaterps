@@ -1,5 +1,5 @@
 import React from 'react';
-import { MatchScore } from '../types';
+import { MatchScore } from '../types.ts';
 
 interface GameOverScreenProps {
   result: 'win' | 'lose' | 'draw';
