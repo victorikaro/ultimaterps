@@ -1,0 +1,5 @@
+{
+  "name": "Ultimate Rock Paper Scissors",
+  "description": "A competitive game of Rock Paper Scissors with 15 moves. Play locally against an AI or online against a friend via a direct peer-to-peer connection.",
+  "requestFramePermissions": []
+}
