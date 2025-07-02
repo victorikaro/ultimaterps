@@ -26,13 +26,9 @@ class PeerService {
     this.onDisconnectedCallback = onDisconnected;
     this.onErrorCallback = onError;
     
-    // this.peer = new Peer(); // Old connection to public PeerJS server
-
-    // Connect to your custom signaling server deployed on a service like Render.
-    // IMPORTANT: Replace 'your-signaling-server-url.onrender.com' with the actual URL
-    // you get after deploying the server.js file.
+    // Connect to your live signaling server on Render.
     this.peer = new Peer(undefined, {
-      host: 'rps-signaling.onrender.com', // <-- REPLACE WITH YOUR RENDER URL
+      host: 'ultimaterps.onrender.com', // Your Render URL
       secure: true,      // Required for HTTPS connections on Render
       port: 443,         // Default port for HTTPS
       path: '/peerjs/myapp' // The path we configured in server.js
