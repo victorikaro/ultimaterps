@@ -1,5 +1,5 @@
 import Peer, { DataConnection } from 'peerjs';
-import { PeerMessage } from '../types';
+import { PeerMessage } from '../types.ts';
 
 class PeerService {
   private peer: Peer | null = null;

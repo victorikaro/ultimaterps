@@ -1,5 +1,5 @@
 
-import { Item, GameResult } from '../types';
+import { Item, GameResult } from '../types.ts';
 
 /**
  * Determines the winner between two choices in the 15-item Rock-Paper-Scissors game.

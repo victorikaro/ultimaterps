@@ -1,4 +1,4 @@
-import { ItemName } from '../types';
+import { ItemName } from '../types.ts';
 
 export const VICTORY_MESSAGES: Partial<Record<ItemName, Partial<Record<ItemName, string>>>> = {
     Rock: {
